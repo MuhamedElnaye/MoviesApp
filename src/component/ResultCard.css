@@ -1,0 +1,33 @@
+.result-cart {
+  display: flex;
+  margin-bottom: 20px;
+}
+.result-cart .poster-wrapper img,
+.filter-poster {
+  width: 75px;
+  height: 114px;
+  background-color: #dbdada;
+  border-radius: var(--border-radius);
+  margin-right: 15px;
+  display: block;
+  color: transparent;
+}
+.result-cart .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.result-cart .info .title {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.result-cart .info .release-date {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+.controls button {
+  margin: 0 7px 7px 0;
+}
